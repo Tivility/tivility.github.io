@@ -1,6 +1,6 @@
 # Site settings
-title: Tivility's Blog
-SEOTitle: 墓垣的博客 | Tivility's Blog
+title: Tivility
+SEOTitle: 墓垣的博客 | Tivility Blog
 header-img: img/home-bg.jpg
 email: tivility@gmail.com
 description: "a common boy | 墓垣，curious about everything | 这里是 @Tivility 的个人博客"
@@ -82,7 +82,7 @@ ga_domain: auto                          #https://tivility.github.io/
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "上善若水<br>水善利万物而不争"
+sidebar-about-description: "道可道, 非常道."
 sidebar-avatar: /img/icon_wechat.png      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
