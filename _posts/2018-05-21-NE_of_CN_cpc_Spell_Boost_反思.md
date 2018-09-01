@@ -28,17 +28,17 @@ tags:
 
  input is given from Standard Input in the following format: <br>
  n W <br>
- $w_1$, $x_1$, $is\usepackage{underscore}magic_1$, $is\usepackage{underscore}spell\usepackage{underscore}boost_1$ <br>
- $w_2$, $x_2$, $is\usepackage{underscore}magic_2$, $is\usepackage{underscore}spell\usepackage{underscore}boost_2$ <br>
+ $w_1$, $x_1$, $is\_magic_1$, $is\_spell\_boost_1$ <br>
+ $w_2$, $x_2$, $is\_magic_2$, $is\_spell\_boost_2$ <br>
  ...... <br>
- $w_n$, $x_n$, $is\usepackage{underscore}magic_n$, $is\usepackage{underscore}spell\usepackage{underscore}boost_n$ <br>
+ $w_n$, $x_n$, $is\_magic_n$, $is\_spell\_boost_n$ <br>
 
 ### Constraints
 
  $1 <= n <= 500$
  $0 <= W,\ w_i,\ x_i<=500$, and all of them are integers.
- $is\usepackage{underscore}magic_i$ means: If this card is magic card, the value is 1, otherwise the value is 0.
- $is\usepackage{underscore}spell\usepackage{underscore}boost_i$ means: If this card has spell boost effect, the value is 1, otherwise 0.
+ $is\_magic_i$ means: If this card is magic card, the value is 1, otherwise the value is 0.
+ $is\_spell\_boost_i$ means: If this card has spell boost effect, the value is 1, otherwise 0.
 
 ### Output
 
