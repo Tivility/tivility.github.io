@@ -24,7 +24,7 @@ tags:
  Among them, there are two special types of cards: some cards are magic cards and some have "spell boost effect". Everytime you have used a magic card, for each unused "spell boost effect" card i: if the current cost of i (i.e. $w_i$) is positive, then $w_i$ will be reduced by 1. Note that some cards may be both magic cards and have spell boost effect. <br>
  Now you have W points of power, you need to calculate maximum total damage you can cause. <br>
 
- ### Input
+### Input
  input is given from Standard Input in the following format: <br>
  n W <br>
  $w_1$ $x_1$ $is\_magic_1$ $is\_spell\_boost_1$ <br>
@@ -32,33 +32,37 @@ tags:
  ...... <br>
  $w_n$ $x_n$ $is\_magic_n$ $is\_spell\_boost_n$ <br>
 
- ### Constraints
+### Constraints
  $1 <= n <= 500$
  $0 <= W,\ w_i,\ x_i<=500$, and all of them are integers.
  $is\_magic_i$ means: If this card is magic card, the value is 1, otherwise the value is 0.
  $is\_spell\_boost_i$ means: If this card has spell boost effect, the value is 1, otherwise 0.
- ### Output
+
+### Output
  one integer representing the maximum total daage.
- ### Examples
+ 
+### Examples
  sandard imput | standard output
  |-------------|-----------------|
  3 3 <br> 3 3 1 1 <br> 2 3 1 1 <br> 1 3 1 1 | 9
  4 3 <br> 3 3 1 1 <br> 3 4 1 0 <br> 1 3 0 1 <br> 1 0 1 0 | 7
 
 ## 题意
-- 有n张牌
-- 每个牌有四个值 m, b, w, x, 前两个是标记, 后两个是数值
-- w是花费, x是收益
-- 每出一张有m标记的牌, 在这张牌之后的含有b标记的牌的花费减少1
-- 求出在花费W之内的最大收益.
+ - 有n张牌
+ - 每个牌有四个值 m, b, w, x, 前两个是标记, 后两个是数值
+ - w是花费, x是收益
+ - 每出一张有m标记的牌, 在这张牌之后的含有b标记的牌的花费减少1
+ - 求出在花费W之内的最大收益.
+
+
 ## 分析
-1. 显然, 如果最终答案一定要选定某些牌, 那么一定是优先选择带有magic标记的牌会更优.
-2. 当同时有magic标记的时候, 一定是优先选择不带boost标记的牌更优.
-3. 当同时带有magic和boost标记时, 按照花费从小到大选择不会比乱序选择更差.
-4. 所以我们按照以上顺序对输入排列, 排列之后简单01背包即可解决.
+ 1. 显然, 如果最终答案一定要选定某些牌, 那么一定是优先选择带有magic标记的牌会更优.
+ 2. 当同时有magic标记的时候, 一定是优先选择不带boost标记的牌更优.
+ 3. 当同时带有magic和boost标记时, 按照花费从小到大选择不会比乱序选择更差.
+ 4. 所以我们按照以上顺序对输入排列, 排列之后简单01背包即可解决.
+
 
 ## 代码  
-
 
 ``` cpp
 #include <stdio.h>
