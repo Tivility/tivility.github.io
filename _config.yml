@@ -106,5 +106,8 @@ friends: [
     # },{
         title: "Ekki Múkk",
         href: "http://blog.fed.ink/"
+    },{
+        title: "Raphael's Blog",
+        href: "http://blog.r4phael.cn"
     }
 ]
