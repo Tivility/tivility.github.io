@@ -117,9 +117,12 @@ friends: [
     #     href: "https://www.google.com"
     # },{
         title: "Ekki Múkk",
-        href: "http://blog.fed.ink/"
+        href: "blog.fed.ink/"
     },{
         title: "Raphael's Blog",
-        href: "http://blog.r4phael.cn"
+        href: "blog.r4phael.cn"
+    },{
+        title: "Techiah...",
+        href: "techiah.xyz"
     }
 ]
