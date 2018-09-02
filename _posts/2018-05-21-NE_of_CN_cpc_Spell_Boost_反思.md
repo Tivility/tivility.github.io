@@ -69,9 +69,8 @@ sandard imput | standard output
 ## 代码  
 
 
-{% raw %}
-```
-{% codeblock [lang:cpp] [title] [url] [link text] [linenos:true] %}
+
+```cpp
 
 #include <stdio.h>
 #include <algorithm>
@@ -137,9 +136,7 @@ int main() {
     return 0;
 }
 
-{% endcodeblock %}
 ```
-{% endraw %}
 
 ### ps.
 在赛场上石乐志的统计了magic和boost能组合出4种类型的牌的个数, 然后在dp过程中利用个数确定位置, 进而确定类型. 时间复杂度确实更优, 然而忘记排序的时候, 不带magic的标记的两种牌的顺序. 这tm肯定就GG了. 赛后重新看代码发现问题. 简直智障. 
