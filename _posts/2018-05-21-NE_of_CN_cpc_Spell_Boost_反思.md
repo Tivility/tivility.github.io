@@ -4,7 +4,7 @@ title:      "NE_of_CN_cpc_Spell_Boost_反思"
 subtitle:   "2017ccpc东北四省赛I题反思"
 date:       2018-05-21 00:00:00
 author:     "Tivility"
-header-img: "img/post_bg/auto.jpg"
+header-img: "img/post_bg/acm.png"  
 tags:
     - Acm
 ---
