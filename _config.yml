@@ -120,12 +120,12 @@ friends: [
     #     href: "https://www.google.com"
     # },{
         title: "Ekki Múkk",
-        href: "blog.fed.ink/"
+        href: "https://blog.fed.ink/"
     },{
         title: "Raphael's Blog",
-        href: "blog.r4phael.cn"
+        href: "http://blog.r4phael.cn/"
     },{
         title: "Techiah...",
-        href: "techiah.xyz"
+        href: "http://techiah.xyz/"
     }
 ]
