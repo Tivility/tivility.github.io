@@ -12,7 +12,7 @@ github_repo: "https://github.com/tivility/tivility.github.io.git" # you code rep
 
 # SNS settings
 RSS: false
-# weibo_username:     
+#weibo_username:    
 zhihu_username:     yuan-yuan-41-51
 github_username:    tivility
 #facebook_username:  
