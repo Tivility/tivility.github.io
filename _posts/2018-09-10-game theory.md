@@ -1,12 +1,12 @@
 ---
 layout:     post
-title:      "课件"
+title:      "Game Theory"
 subtitle:   "哈尔滨工程大学ACM专选课博弈论相关课件"
 date:       2018-09-10 00:00:00
 author:     "Tivility"
 header-img: "img/post_bg/auto.jpg"
 tags:
-    - Acm
+    - Courseware for ACM Professional Electives
 ---
 
 ### 课件下载链接
