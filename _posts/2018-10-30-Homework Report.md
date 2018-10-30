@@ -13,7 +13,7 @@ tags:
   
 ### 模拟考试题解代码:
 
-1. 博弈论
+- 1.博弈论
 
 ```cpp
 #include <stdio.h>
@@ -36,7 +36,7 @@ int main() {
 }
 ```
 
-2. 简单搜索
+- 2.简单搜索
 
 ```cpp
 #include <stdio.h>
@@ -101,7 +101,7 @@ int main() {
 }
 ```
 
-3. 二分图判定(dfs黑白染色)
+- 3.二分图判定(dfs黑白染色)
 
 ```cpp
 #include <stdio.h>
@@ -173,7 +173,7 @@ int main() {
 }
 ```
 
-4. spfa判负环
+- 4.spfa判负环
 
 ```cpp
 // code from lajiyuan
@@ -282,8 +282,8 @@ int main()
 ### 解题报告下载链接
   - [解题报告](https://github.com/Tivility/tivility.github.io/raw/master/pdf/ACM_lesson.doc)
 
-<iframe src='https://view.officeapps.live.com/op/view.aspx?src=https://github.com/Tivility/tivility.github.io/raw/master/pdf/ACM_lesson.doc' width='100%' height='100%' frameborder='1'>
-  </ifream>
+<iframe src='https://view.officeapps.live.com/op/view.aspx?src=https://github.com/Tivility/tivility.github.io/raw/master/pdf/ACM_lesson.doc' width='100%' height='800%' frameborder='1'>
+</ifream>
 
 ---
 
