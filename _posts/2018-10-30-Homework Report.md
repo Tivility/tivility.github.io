@@ -12,7 +12,9 @@ tags:
 
   
 ### 模拟考试题解代码:
+
 1. 博弈论
+
 ```cpp
 #include <stdio.h>
 #include <iostream>
@@ -33,7 +35,9 @@ int main() {
     return 0;
 }
 ```
+
 2. 简单搜索
+
 ```cpp
 #include <stdio.h>
 #include <stdlib.h>
@@ -96,7 +100,9 @@ int main() {
     return 0;
 }
 ```
+
 3. 二分图判定(dfs黑白染色)
+
 ```cpp
 #include <stdio.h>
 #include <stdlib.h>
@@ -166,7 +172,9 @@ int main() {
     return 0;
 }
 ```
+
 4. spfa判负环
+
 ```cpp
 // code from lajiyuan
 #include <stdio.h>
