@@ -98,7 +98,7 @@ int main() {
 ```
 
 - 3. DP / 记忆化搜索  
-    原题是(LeetCode 198 House Robber)[https://leetcode.com/problems/house-robber/]
+    原题是[LeetCode 198 House Robber](https://leetcode.com/problems/house-robber/)  
     转移方程: $dp[i] = max(dp[i - 2], dp[i - 3]) + a[i]$  
 
 ```cpp
@@ -143,11 +143,11 @@ int main() {
 }
 ```
 
-- 4. 容斥原理
-    三个数各自的倍数
-    任意两个数字的积的倍数
-    三个数字积的倍数
-    做容斥
+- 4. 容斥原理  
+    三个数各自的倍数  
+    任意两个数字的积的倍数  
+    三个数字积的倍数  
+    做容斥  
 
 ```cpp
 #include <iostream>
