@@ -2,7 +2,7 @@
 layout:     post
 title:      "contest of ACM Lesson(part3)"
 subtitle:   "哈尔滨工程大学ACM专选课期末考试题解"
-date:       2018-10-06 22:00:00
+date:       2018-11-06 22:00:00
 author:     "Tivility"
 header-img: "img/post_bg/acm.png"
 tags:
